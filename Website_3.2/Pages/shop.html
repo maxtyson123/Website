@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/shop.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/Modaltext.css">
+    
+	<title>
+		Shop 
+	</title>
+</head>
+<body>
+</div>
+
+<div class="header">
+  <h1>My Website</h1>
+  <marquee behavior="scroll" direction="left">  <font size="+3">Welcome To My Html Page</font></marquee>
+</div>
+
+<div class="content">
+<style>
+a:link, a:visited {
+  background-color: #C0C0C0;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: blue;
+}
+</style>
+<a href="../index.html"><font size="+2">Home</font></a>
+<a href="contents.html"><font size="+2">Contents</font></a>
+<a href="assignments.html"><font size="+2">Assignments</font></a>
+<a href="coomingsoon.html"><font size="+2">Story</font></a>
+<a href="coomingsoon.html"><font size="+2">Other</font></a>
+<a href = "mailto:98maxt98@gmail.com"  target="_blank"><font size="+2">Contact Us</font></a>
+    
+    <h2 style="text-align:center">Shop</h2>
+
+    <div class="row">
+        <div id="wrapper">
+			
+
+        <div class="column">
+            <div class="card">
+  <img src="../Images/platformer.jpg" alt="PI" style="width:100%">
+  <h1>Maxs Platformer</h1>
+    <p>SALE!<p>
+    <p class="price"><strike>$3.00</strike><font color = "black"> $0.00</font><p>
+  <p>Maxs  Platformer - This is my platformer I made using unity 2018. The games is about a lost little fox who needs your help to find his way home.  </p>
+<button><p id="box2">Click Here To Purchase</a></p></button>
+         </div>
+    </div>
+        
+        <div class="column">
+             <div class="card">
+    <img src="../Images/3CR.png" alt="3CR" style="width:100%">
+  <h1>3D Cube Runner</h1>
+    <p>SALE!<p>
+    <p class="price"><strike>$5.99</strike><font color = "black"> $0.00</font><p>
+  <p>3D Cube Runner - This is my  first 3d game! I made it folloing the brackeys tourial seris. You are the  cube and you have to doge blocks that are hurlting towards you.</p>
+<button><p id="box1">Click Here To Purchase</a></p></button>
+        </div>
+    </div>
+<div class="column">
+             <div class="card">
+    <img src="../Images/FPS.png" alt="3CR" style="width:100%">
+  <h1>Maxs MultiPlayer FPS</h1>
+    <p>- <p>
+    <p class="price"><font color = "black"> $6.99</font><p>
+  <p>Maxs MultiPlayer FPS - This is my  first Multiplayer game! In this new game you are versing other players in a  city and/or  wharehouse</p>
+<button><p id="box3">Click Here To Purchase</a></p></button>
+        </div>
+    </div>
+    <br>
+ <div class="row">
+     <div class="collumn">
+     
+     
+     <div class="card">
+    <img src="../Images/Storm.png" alt="3CR" style="width:100%">
+  <h1>Storm Simulator</h1>
+    <p>- <p>
+    <p class="price"><font color = "black"> Free</font><p>
+  <p>Storm Simulator - This is a satisfying app the simulates a storm in a poly mountain enviroment </p>
+<button><p id="box4">Click Here To Purchase</a></p></button>
+        </div>
+    </div>
+    
+    
+    <div id="popupBoxOnePosition">
+			<div class="popupBoxWrapper">
+				<div class="popupBoxContent">
+					<h3>3D Cube Runner</h3>
+					<p>You are about to purchase 3D Cube Runner for $0.00.</p>
+                    <br>
+                    <a href="shop.html"><font size="+2">Back</font></a><a href="Shop/3D.purchase.html"><font size="+2">Continue</font></a>
+					<p id="closebox1"></a></p>
+				</div>
+			</div>
+		</div>
+
+		<div id="popupBoxTwoPosition">
+			<div class="popupBoxWrapper">
+				<div class="popupBoxContent">
+					<h3>Platformer</h3>
+					<p>You are about to purchase Platformer for $0.00.</p>
+                    <br>
+                    <a href="shop.html"><font size="+2">Back</font></a><a href="Shop/Platformer.purchase.html"><font size="+2">Continue</font></a>
+					<p id="closebox2"></a></p>
+				</div>
+			</div>
+		</div>
+
+<div id="popupBoxThreePosition">
+			<div class="popupBoxWrapper">
+				<div class="popupBoxContent">
+					<h3>Maxs MultiPlayer FPS</h3>
+					<p>You are about to purchase Maxs MultiPlayer FPS for $6.99.</p>
+                    <br>
+                    <a href="shop.html"><font size="+2">Back</font></a><a href="Shop/checkout.FPS.html"><font size="+2">Continue</font></a>
+					<p id="closebox3"></a></p>
+				</div>
+			</div>
+		</div>
+<div id="popupBoxFourPosition">
+			<div class="popupBoxWrapper">
+				<div class="popupBoxContent">
+					<h3>Storm Simulator</h3>
+					<p>You are about to purchase Storm Simulator for $Free.</p>
+                    <br>
+                    <a href="shop.html"><font size="+2">Back</font></a><a href="Shop/checkoutstormsim.html"><font size="+2">Continue</font></a>
+					<p id="closebox4"></a></p>
+				</div>
+			</div>
+		</div>
+
+		
+    
+    
+
+    
+<script> 
+//pop1 
+        
+var e = document.getElementById('popupBoxOnePosition');
+ var close = document.getElementById('closebox1');
+
+document.getElementById('box1').addEventListener('click', function(){
+  if(e.style.display == 'block')
+    e.style.display = 'none';
+  else
+    e.style.display = 'block';
+});
+
+// When the user clicks on Click here to close modal
+close.onclick = function() {
+    e.style.display = "none";
+}
+
+//pop2 js
+ var elpopupBoxTwoPosition = document.getElementById('popupBoxTwoPosition');
+ var closeclosebox2 = document.getElementById('closebox2');
+
+document.getElementById('box2').addEventListener('click', function(){
+  if(elpopupBoxTwoPosition.style.display == 'block')
+    elpopupBoxTwoPosition.style.display = 'none';
+  else
+    elpopupBoxTwoPosition.style.display = 'block';
+});
+  
+// When the user clicks on Click here to close modal
+closeclosebox2.onclick = function() {
+    elpopupBoxTwoPosition.style.display = "none";
+}
+    
+//pop3 js
+ var elpopupBoxThreePosition = document.getElementById('popupBoxThreePosition');
+ var closeclosebox3 = document.getElementById('closebox3');
+
+document.getElementById('box3').addEventListener('click', function(){
+  if(elpopupBoxThreePosition.style.display == 'block')
+    elpopupBoxThreePosition.style.display = 'none';
+  else
+    elpopupBoxThreePosition.style.display = 'block';
+});
+  
+// When the user clicks on Click here to close modal
+closeclosebox3.onclick = function() {
+    elpopupBoxThreePosition.style.display = "none";
+}
+    
+//pop4 js
+ var elpopupBoxFourPosition = document.getElementById('popupBoxFourPosition');
+ var closeclosebox4 = document.getElementById('closebox4');
+
+document.getElementById('box4').addEventListener('click', function(){
+  if(elpopupBoxFourPosition.style.display == 'block')
+    elpopupBoxFourPosition.style.display = 'none';
+  else
+    elpopupBoxFourPosition.style.display = 'block';
+});
+  
+// When the user clicks on Click here to close modal
+closeclosebox4.onclick = function() {
+    elpopupBoxFourPosition.style.display = "none";
+}        
+</script>
+</body>
+    
+<br>
