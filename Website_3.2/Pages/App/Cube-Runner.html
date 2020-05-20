@@ -8,6 +8,22 @@ body, html {
   margin: 0;
 }
 
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}  
+  
 .bg {
   /* The image used */
   background-image: url("../../Images/FS_CUBERUNNER.png");
@@ -26,6 +42,7 @@ body, html {
 
 <div class="bg"></div>
     <!-- button to Download App for new app users -->
+   <div class="collumn">
     <form action="../../Apks/3CR.apk">
         <input type="submit" value="Download" />
     </form>
