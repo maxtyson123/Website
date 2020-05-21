@@ -8,7 +8,7 @@ body, html {
   margin: 0;
 }
 
-.card button {
+.card form {
   border: none;
   outline: 0;
   padding: 12px;
@@ -45,10 +45,7 @@ body, html {
    <div class="card">
     <form action="../../Apks/3CR.apk">
         <input type="submit" value="Download" />
-    </form>
- 
-    <!-- button to Open App to specific screen for existing app users -->
-    <form action="yourapp://app.com/?screen=xxxxx" target="_blank">
+    </form><form action="yourapp://app.com/?screen=xxxxx" target="_blank">
         <input type="submit" value="Open App" />
     </form>
 
