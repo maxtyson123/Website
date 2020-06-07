@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+	<title>
+		Hello 
+	</title>
+</head>
+<body>
+</div>
+<div class="header">
+
+  <h1>My Website</h1>
+  <marquee behavior="scroll" direction="left">  <font size="+3">Welcome To My Html Page</font></marquee>
+</div>
+
+<div class="content">
+<style>
+a:link, a:visited {
+  background-color: #C0C0C0;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: blue;
+}
+</style>
+<a href="../index.html"><font size="+2">Home</font></a>
+<a href="contents.html"><font size="+2">Contents</font></a>
+<a href="assignments.html"><font size="+2">Assignments</font></a>
+<a href="coomingsoon.html"><font size="+2">Story</font></a>
+<a href="coomingsoon.html"><font size="+2">Other</font></a>
+<a href = "mailto:98maxt98@gmail.com"  target="_blank"><font size="+2">Contact Us</font></a>
+<br>
+<style>
+.alert {
+  padding: 20px;
+  background-color: #FF0000;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+</style>
+<br>    
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>WARNING!</strong> Donate Page Has Been Updated. To View <button onclick="window.location.href = 'Donate.html';">Click Here</button>
+</div>
+    
+<br>
+    <form>
+  <form action="../PHP/thx.php" method="get">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="$">Amount:</label><br>
+  <input type="text" id="$" name="$"><br><br>
+</form>
+        
+<button onclick="myFunction()">Donate</button>
+
+<script>
+function myFunction() {
+  alert("Thank you for your donation!");
+}
+</script>
+        
+    <p> (!) THIS IS RP </p>

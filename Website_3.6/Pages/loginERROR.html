@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+	<title>
+		Hello 
+	</title>
+</head>
+<body>
+</div>
+<div class="header">
+  <h1>My Website</h1>
+  <marquee behavior="scroll" direction="left">  <font size="+3">Welcome To My Html Page</font></marquee>
+</div>
+
+<div class="content">
+<style>
+a:link, a:visited {
+  background-color: #C0C0C0;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: blue;
+}
+</style>
+<a href="../index.html"><font size="+2">Home</font></a>
+<a href="contents.html"><font size="+2">Contents</font></a>
+<a href="assignments.html"><font size="+2">Assignments</font></a>
+<a href="coomingsoon.html"><font size="+2">Story</font></a>
+<a href="coomingsoon.html"><font size="+2">Other</font></a>
+<a href = "mailto:98maxt98@gmail.com"  target="_blank"><font size="+2">Contact Us</font></a>
+<br>
+<script language="">
+	function validate(form){
+		if(form.username.value.length==0){
+			alert("Enter username!");
+			form.username.focus();
+			return false;
+		}
+
+		if(form.userpassword.value.length==0){
+			alert("Enter password");
+			form.userpassword.focus();
+			return false;
+		}
+
+		return true;
+	}
+</script>
+</body>
+<body>
+<h1>Login</h1>
+    <p><font colour="red">Error</font><p>
+<form method="post" action="loginEROOR.html" onsubmit="return validate(this)">
+<p>User Name: <input type="text" name="username"></p>
+<p>Password: <input type="password" name="userpassword"></p>
+<p><input type="Submit" value="Login"></p>
+</form>
+</body>
+</html>
